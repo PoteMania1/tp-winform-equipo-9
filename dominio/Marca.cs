@@ -8,5 +8,6 @@ namespace dominio
 {
     internal class Marca
     {
+        public Marca() { }
     }
 }
