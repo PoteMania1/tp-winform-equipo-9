@@ -52,7 +52,7 @@ namespace TPWinForm_equipo_9
             // btnAgregar
             // 
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(38, 56);
+            this.btnAgregar.Location = new System.Drawing.Point(88, 29);
             this.btnAgregar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(88, 23);
@@ -63,7 +63,7 @@ namespace TPWinForm_equipo_9
             // btnModificar
             // 
             this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.Location = new System.Drawing.Point(38, 94);
+            this.btnModificar.Location = new System.Drawing.Point(282, 29);
             this.btnModificar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(88, 23);
@@ -74,7 +74,7 @@ namespace TPWinForm_equipo_9
             // btnEliminar
             // 
             this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(38, 132);
+            this.btnEliminar.Location = new System.Drawing.Point(501, 29);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(88, 23);
@@ -85,25 +85,25 @@ namespace TPWinForm_equipo_9
             // dgvArticulo
             // 
             this.dgvArticulo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvArticulo.Location = new System.Drawing.Point(196, 94);
+            this.dgvArticulo.Location = new System.Drawing.Point(25, 85);
             this.dgvArticulo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.dgvArticulo.Name = "dgvArticulo";
-            this.dgvArticulo.Size = new System.Drawing.Size(512, 272);
+            this.dgvArticulo.Size = new System.Drawing.Size(624, 313);
             this.dgvArticulo.TabIndex = 3;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(527, 36);
+            this.textBox1.Location = new System.Drawing.Point(847, 32);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(116, 20);
+            this.textBox1.Size = new System.Drawing.Size(177, 20);
             this.textBox1.TabIndex = 4;
             // 
             // btnBuscar
             // 
             this.btnBuscar.Cursor = System.Windows.Forms.Cursors.No;
             this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.Location = new System.Drawing.Point(651, 26);
+            this.btnBuscar.Location = new System.Drawing.Point(1032, 22);
             this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(58, 39);
@@ -113,7 +113,7 @@ namespace TPWinForm_equipo_9
             // 
             // pictureBoxImagenArticulo
             // 
-            this.pictureBoxImagenArticulo.Location = new System.Drawing.Point(743, 118);
+            this.pictureBoxImagenArticulo.Location = new System.Drawing.Point(781, 164);
             this.pictureBoxImagenArticulo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBoxImagenArticulo.Name = "pictureBoxImagenArticulo";
             this.pictureBoxImagenArticulo.Size = new System.Drawing.Size(243, 183);
@@ -123,31 +123,31 @@ namespace TPWinForm_equipo_9
             // 
             // btnSiguiente
             // 
-            this.btnSiguiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSiguiente.Location = new System.Drawing.Point(898, 319);
+            this.btnSiguiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSiguiente.Location = new System.Drawing.Point(1032, 233);
             this.btnSiguiente.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSiguiente.Name = "btnSiguiente";
-            this.btnSiguiente.Size = new System.Drawing.Size(88, 23);
+            this.btnSiguiente.Size = new System.Drawing.Size(44, 43);
             this.btnSiguiente.TabIndex = 7;
-            this.btnSiguiente.Text = "Siguiente";
+            this.btnSiguiente.Text = ">";
             this.btnSiguiente.UseVisualStyleBackColor = true;
             // 
             // btnAnterior
             // 
-            this.btnAnterior.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnterior.Location = new System.Drawing.Point(743, 319);
+            this.btnAnterior.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAnterior.Location = new System.Drawing.Point(729, 233);
             this.btnAnterior.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnAnterior.Name = "btnAnterior";
-            this.btnAnterior.Size = new System.Drawing.Size(88, 23);
+            this.btnAnterior.Size = new System.Drawing.Size(44, 43);
             this.btnAnterior.TabIndex = 8;
-            this.btnAnterior.Text = "Anterior";
+            this.btnAnterior.Text = "<";
             this.btnAnterior.UseVisualStyleBackColor = true;
             // 
             // lblgion
             // 
             this.lblgion.AutoSize = true;
             this.lblgion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblgion.Location = new System.Drawing.Point(865, 324);
+            this.lblgion.Location = new System.Drawing.Point(938, 415);
             this.lblgion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblgion.Name = "lblgion";
             this.lblgion.Size = new System.Drawing.Size(12, 16);
@@ -157,7 +157,7 @@ namespace TPWinForm_equipo_9
             // cmbCategoria
             // 
             this.cmbCategoria.FormattingEnabled = true;
-            this.cmbCategoria.Location = new System.Drawing.Point(37, 304);
+            this.cmbCategoria.Location = new System.Drawing.Point(977, 85);
             this.cmbCategoria.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbCategoria.Name = "cmbCategoria";
             this.cmbCategoria.Size = new System.Drawing.Size(128, 21);
@@ -166,7 +166,7 @@ namespace TPWinForm_equipo_9
             // cmbMarca
             // 
             this.cmbMarca.FormattingEnabled = true;
-            this.cmbMarca.Location = new System.Drawing.Point(38, 251);
+            this.cmbMarca.Location = new System.Drawing.Point(698, 85);
             this.cmbMarca.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbMarca.Name = "cmbMarca";
             this.cmbMarca.Size = new System.Drawing.Size(128, 21);
@@ -175,7 +175,7 @@ namespace TPWinForm_equipo_9
             // cmbArticulo
             // 
             this.cmbArticulo.FormattingEnabled = true;
-            this.cmbArticulo.Location = new System.Drawing.Point(37, 196);
+            this.cmbArticulo.Location = new System.Drawing.Point(834, 85);
             this.cmbArticulo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmbArticulo.Name = "cmbArticulo";
             this.cmbArticulo.Size = new System.Drawing.Size(128, 21);
@@ -185,7 +185,7 @@ namespace TPWinForm_equipo_9
             // 
             this.lblArticulo.AutoSize = true;
             this.lblArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblArticulo.Location = new System.Drawing.Point(34, 177);
+            this.lblArticulo.Location = new System.Drawing.Point(831, 66);
             this.lblArticulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblArticulo.Name = "lblArticulo";
             this.lblArticulo.Size = new System.Drawing.Size(51, 16);
@@ -196,7 +196,7 @@ namespace TPWinForm_equipo_9
             // 
             this.lblCategoria.AutoSize = true;
             this.lblCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCategoria.Location = new System.Drawing.Point(35, 285);
+            this.lblCategoria.Location = new System.Drawing.Point(975, 66);
             this.lblCategoria.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCategoria.Name = "lblCategoria";
             this.lblCategoria.Size = new System.Drawing.Size(66, 16);
@@ -207,7 +207,7 @@ namespace TPWinForm_equipo_9
             // 
             this.lblMarca.AutoSize = true;
             this.lblMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMarca.Location = new System.Drawing.Point(34, 235);
+            this.lblMarca.Location = new System.Drawing.Point(695, 66);
             this.lblMarca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMarca.Name = "lblMarca";
             this.lblMarca.Size = new System.Drawing.Size(45, 16);
@@ -220,7 +220,7 @@ namespace TPWinForm_equipo_9
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1015, 441);
+            this.ClientSize = new System.Drawing.Size(1118, 441);
             this.Controls.Add(this.lblMarca);
             this.Controls.Add(this.lblCategoria);
             this.Controls.Add(this.lblArticulo);
