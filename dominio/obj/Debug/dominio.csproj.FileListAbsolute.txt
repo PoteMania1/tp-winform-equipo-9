@@ -16,3 +16,9 @@ C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\dominio\obj\Deb
 C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
 C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\dominio\obj\Debug\dominio.dll
 C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\dominio\obj\Debug\dominio.pdb
+C:\Users\Lauti\Desktop\ProgIII\TP_WinForm\tp-winform-equipo-9\dominio\bin\Debug\dominio.dll
+C:\Users\Lauti\Desktop\ProgIII\TP_WinForm\tp-winform-equipo-9\dominio\bin\Debug\dominio.pdb
+C:\Users\Lauti\Desktop\ProgIII\TP_WinForm\tp-winform-equipo-9\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\Lauti\Desktop\ProgIII\TP_WinForm\tp-winform-equipo-9\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\Lauti\Desktop\ProgIII\TP_WinForm\tp-winform-equipo-9\dominio\obj\Debug\dominio.dll
+C:\Users\Lauti\Desktop\ProgIII\TP_WinForm\tp-winform-equipo-9\dominio\obj\Debug\dominio.pdb

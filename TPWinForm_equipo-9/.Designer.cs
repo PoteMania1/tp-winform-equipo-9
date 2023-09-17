@@ -117,6 +117,7 @@ namespace TPWinForm_equipo_9
             this.pictureBoxImagenArticulo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBoxImagenArticulo.Name = "pictureBoxImagenArticulo";
             this.pictureBoxImagenArticulo.Size = new System.Drawing.Size(243, 183);
+            this.pictureBoxImagenArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxImagenArticulo.TabIndex = 6;
             this.pictureBoxImagenArticulo.TabStop = false;
             // 
@@ -149,7 +150,7 @@ namespace TPWinForm_equipo_9
             this.lblgion.Location = new System.Drawing.Point(865, 324);
             this.lblgion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblgion.Name = "lblgion";
-            this.lblgion.Size = new System.Drawing.Size(13, 16);
+            this.lblgion.Size = new System.Drawing.Size(12, 16);
             this.lblgion.TabIndex = 9;
             this.lblgion.Text = "-";
             // 
@@ -187,7 +188,7 @@ namespace TPWinForm_equipo_9
             this.lblArticulo.Location = new System.Drawing.Point(34, 177);
             this.lblArticulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblArticulo.Name = "lblArticulo";
-            this.lblArticulo.Size = new System.Drawing.Size(52, 16);
+            this.lblArticulo.Size = new System.Drawing.Size(51, 16);
             this.lblArticulo.TabIndex = 13;
             this.lblArticulo.Text = "Articulo";
             // 
@@ -198,7 +199,7 @@ namespace TPWinForm_equipo_9
             this.lblCategoria.Location = new System.Drawing.Point(35, 285);
             this.lblCategoria.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCategoria.Name = "lblCategoria";
-            this.lblCategoria.Size = new System.Drawing.Size(67, 16);
+            this.lblCategoria.Size = new System.Drawing.Size(66, 16);
             this.lblCategoria.TabIndex = 14;
             this.lblCategoria.Text = "Categoria";
             // 
@@ -209,7 +210,7 @@ namespace TPWinForm_equipo_9
             this.lblMarca.Location = new System.Drawing.Point(34, 235);
             this.lblMarca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMarca.Name = "lblMarca";
-            this.lblMarca.Size = new System.Drawing.Size(46, 16);
+            this.lblMarca.Size = new System.Drawing.Size(45, 16);
             this.lblMarca.TabIndex = 15;
             this.lblMarca.Text = "Marca";
             // 
