@@ -1,7 +1,7 @@
 ﻿
 namespace TPWinForm_equipo_9
 {
-    partial class Form1
+    partial class formPrincipal
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -38,7 +38,6 @@ namespace TPWinForm_equipo_9
             this.pictureBoxImagenArticulo = new System.Windows.Forms.PictureBox();
             this.btnSiguiente = new System.Windows.Forms.Button();
             this.btnAnterior = new System.Windows.Forms.Button();
-<<<<<<< HEAD
             this.lblgion = new System.Windows.Forms.Label();
             this.cmbCategoria = new System.Windows.Forms.ComboBox();
             this.cmbMarca = new System.Windows.Forms.ComboBox();
@@ -46,22 +45,13 @@ namespace TPWinForm_equipo_9
             this.lblArticulo = new System.Windows.Forms.Label();
             this.lblCategoria = new System.Windows.Forms.Label();
             this.lblMarca = new System.Windows.Forms.Label();
-=======
-            this.lblMarca = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.lblDescripcion = new System.Windows.Forms.Label();
-            this.lblCategoria = new System.Windows.Forms.Label();
-            this.btnMarcasyCategorias = new System.Windows.Forms.Button();
->>>>>>> 7b71b42510ecb4a6fe8f24892f215dc9ab6a7ded
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImagenArticulo)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(57, 28);
+            this.btnAgregar.Location = new System.Drawing.Point(33, 56);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
             this.btnAgregar.TabIndex = 0;
@@ -70,7 +60,7 @@ namespace TPWinForm_equipo_9
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(181, 28);
+            this.btnModificar.Location = new System.Drawing.Point(33, 94);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(75, 23);
             this.btnModificar.TabIndex = 1;
@@ -79,7 +69,7 @@ namespace TPWinForm_equipo_9
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(305, 28);
+            this.btnEliminar.Location = new System.Drawing.Point(33, 132);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
             this.btnEliminar.TabIndex = 2;
@@ -89,26 +79,22 @@ namespace TPWinForm_equipo_9
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-<<<<<<< HEAD
             this.dataGridView1.Location = new System.Drawing.Point(168, 70);
-=======
-            this.dataGridView1.Location = new System.Drawing.Point(40, 83);
->>>>>>> 7b71b42510ecb4a6fe8f24892f215dc9ab6a7ded
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(555, 452);
+            this.dataGridView1.Size = new System.Drawing.Size(560, 272);
             this.dataGridView1.TabIndex = 3;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(642, 22);
+            this.textBox1.Location = new System.Drawing.Point(810, 23);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(231, 20);
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 4;
             // 
             // btnBuscar
             // 
             this.btnBuscar.Cursor = System.Windows.Forms.Cursors.No;
-            this.btnBuscar.Location = new System.Drawing.Point(895, 12);
+            this.btnBuscar.Location = new System.Drawing.Point(916, 13);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(50, 39);
             this.btnBuscar.TabIndex = 5;
@@ -117,96 +103,38 @@ namespace TPWinForm_equipo_9
             // 
             // pictureBoxImagenArticulo
             // 
-<<<<<<< HEAD
             this.pictureBoxImagenArticulo.Location = new System.Drawing.Point(756, 85);
             this.pictureBoxImagenArticulo.Name = "pictureBoxImagenArticulo";
             this.pictureBoxImagenArticulo.Size = new System.Drawing.Size(208, 183);
             this.pictureBoxImagenArticulo.TabIndex = 6;
             this.pictureBoxImagenArticulo.TabStop = false;
-=======
-            this.pictureBox1.Location = new System.Drawing.Point(689, 111);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(208, 183);
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
->>>>>>> 7b71b42510ecb4a6fe8f24892f215dc9ab6a7ded
             // 
             // btnSiguiente
             // 
-            this.btnSiguiente.Location = new System.Drawing.Point(903, 194);
+            this.btnSiguiente.Location = new System.Drawing.Point(889, 286);
             this.btnSiguiente.Name = "btnSiguiente";
-            this.btnSiguiente.Size = new System.Drawing.Size(59, 23);
+            this.btnSiguiente.Size = new System.Drawing.Size(75, 23);
             this.btnSiguiente.TabIndex = 7;
             this.btnSiguiente.Text = "Siguiente";
             this.btnSiguiente.UseVisualStyleBackColor = true;
             // 
             // btnAnterior
             // 
-            this.btnAnterior.Location = new System.Drawing.Point(622, 194);
+            this.btnAnterior.Location = new System.Drawing.Point(756, 286);
             this.btnAnterior.Name = "btnAnterior";
-            this.btnAnterior.Size = new System.Drawing.Size(61, 23);
+            this.btnAnterior.Size = new System.Drawing.Size(75, 23);
             this.btnAnterior.TabIndex = 8;
             this.btnAnterior.Text = "Anterior";
             this.btnAnterior.UseVisualStyleBackColor = true;
             // 
-            // lblMarca
+            // lblgion
             // 
-            this.lblMarca.AutoSize = true;
-            this.lblMarca.Location = new System.Drawing.Point(675, 324);
-            this.lblMarca.Name = "lblMarca";
-            this.lblMarca.Size = new System.Drawing.Size(37, 13);
-            this.lblMarca.TabIndex = 9;
-            this.lblMarca.Text = "Marca";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(678, 438);
-            this.textBox2.MaximumSize = new System.Drawing.Size(300, 40);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(231, 40);
-            this.textBox2.TabIndex = 10;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(678, 389);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(231, 20);
-            this.textBox3.TabIndex = 11;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(678, 340);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(231, 20);
-            this.textBox4.TabIndex = 12;
-            // 
-            // lblDescripcion
-            // 
-            this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Location = new System.Drawing.Point(675, 422);
-            this.lblDescripcion.Name = "lblDescripcion";
-            this.lblDescripcion.Size = new System.Drawing.Size(63, 13);
-            this.lblDescripcion.TabIndex = 13;
-            this.lblDescripcion.Text = "Descripcion";
-            // 
-            // lblCategoria
-            // 
-            this.lblCategoria.AutoSize = true;
-            this.lblCategoria.Location = new System.Drawing.Point(675, 373);
-            this.lblCategoria.Name = "lblCategoria";
-            this.lblCategoria.Size = new System.Drawing.Size(52, 13);
-            this.lblCategoria.TabIndex = 14;
-            this.lblCategoria.Text = "Categoria";
-            // 
-            // btnMarcasyCategorias
-            // 
-            this.btnMarcasyCategorias.Location = new System.Drawing.Point(699, 493);
-            this.btnMarcasyCategorias.Name = "btnMarcasyCategorias";
-            this.btnMarcasyCategorias.Size = new System.Drawing.Size(188, 23);
-            this.btnMarcasyCategorias.TabIndex = 15;
-            this.btnMarcasyCategorias.Text = "Administrar Marcas y Categorias";
-            this.btnMarcasyCategorias.UseVisualStyleBackColor = true;
+            this.lblgion.AutoSize = true;
+            this.lblgion.Location = new System.Drawing.Point(855, 291);
+            this.lblgion.Name = "lblgion";
+            this.lblgion.Size = new System.Drawing.Size(10, 13);
+            this.lblgion.TabIndex = 9;
+            this.lblgion.Text = "-";
             // 
             // cmbCategoria
             // 
@@ -263,7 +191,6 @@ namespace TPWinForm_equipo_9
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(976, 374);
             this.Controls.Add(this.lblMarca);
             this.Controls.Add(this.lblCategoria);
@@ -272,16 +199,6 @@ namespace TPWinForm_equipo_9
             this.Controls.Add(this.cmbMarca);
             this.Controls.Add(this.cmbCategoria);
             this.Controls.Add(this.lblgion);
-=======
-            this.ClientSize = new System.Drawing.Size(1007, 576);
-            this.Controls.Add(this.btnMarcasyCategorias);
-            this.Controls.Add(this.lblCategoria);
-            this.Controls.Add(this.lblDescripcion);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.lblMarca);
->>>>>>> 7b71b42510ecb4a6fe8f24892f215dc9ab6a7ded
             this.Controls.Add(this.btnAnterior);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.pictureBoxImagenArticulo);
@@ -311,7 +228,6 @@ namespace TPWinForm_equipo_9
         private System.Windows.Forms.PictureBox pictureBoxImagenArticulo;
         private System.Windows.Forms.Button btnSiguiente;
         private System.Windows.Forms.Button btnAnterior;
-<<<<<<< HEAD
         private System.Windows.Forms.Label lblgion;
         private System.Windows.Forms.ComboBox cmbCategoria;
         private System.Windows.Forms.ComboBox cmbMarca;
@@ -319,15 +235,6 @@ namespace TPWinForm_equipo_9
         private System.Windows.Forms.Label lblArticulo;
         private System.Windows.Forms.Label lblCategoria;
         private System.Windows.Forms.Label lblMarca;
-=======
-        private System.Windows.Forms.Label lblMarca;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label lblDescripcion;
-        private System.Windows.Forms.Label lblCategoria;
-        private System.Windows.Forms.Button btnMarcasyCategorias;
-        public System.Windows.Forms.TextBox textBox4;
->>>>>>> 7b71b42510ecb4a6fe8f24892f215dc9ab6a7ded
     }
 }
 
