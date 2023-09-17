@@ -26,6 +26,7 @@ namespace negocio
 
                 conexion.Open();
                 lector = comando.ExecuteReader();
+
                 while (lector.Read())
                 {
                     Articulo aux = new Articulo();

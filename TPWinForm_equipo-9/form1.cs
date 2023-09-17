@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using dominio;
 using negocio;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace TPWinForm_equipo_9
 {
@@ -19,11 +20,13 @@ namespace TPWinForm_equipo_9
         {
             InitializeComponent();
         }
-
+        
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
+
             NegocioArticulo negocio = new NegocioArticulo();
             dgvArticulo.DataSource = negocio.Listar();
+<<<<<<< HEAD
             /*NegocionImagen imagenes = new NegocionImagen();
             listaImagen = imagenes.ListarImagenes();
             dgvArticulo.DataSource = listaImagen;
@@ -49,4 +52,12 @@ namespace TPWinForm_equipo_9
         }
         }*/
     }
+=======
+
+
+        }
+       
+
+}
+>>>>>>> 4dd270b45ef0a182ec28d3ec19908c66ea0df439
 }

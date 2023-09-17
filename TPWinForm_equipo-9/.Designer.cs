@@ -117,6 +117,7 @@ namespace TPWinForm_equipo_9
             this.pictureBoxImagenArticulo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBoxImagenArticulo.Name = "pictureBoxImagenArticulo";
             this.pictureBoxImagenArticulo.Size = new System.Drawing.Size(243, 183);
+            this.pictureBoxImagenArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxImagenArticulo.TabIndex = 6;
             this.pictureBoxImagenArticulo.TabStop = false;
             // 
