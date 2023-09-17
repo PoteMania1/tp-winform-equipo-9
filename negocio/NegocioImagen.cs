@@ -11,7 +11,7 @@ namespace negocio
 {
     public class NegocionImagen
     {
-<<<<<<< HEAD:negocio/NegocionImagen.cs
+
         public List<Imagen> ListarImagenes()
         {
             List<Imagen> ListaImagen = new List<Imagen>();
@@ -45,8 +45,5 @@ namespace negocio
             }
         }
     }
-=======
    
-    } 
->>>>>>> 4dd270b45ef0a182ec28d3ec19908c66ea0df439:negocio/NegocioImagen.cs
 }
