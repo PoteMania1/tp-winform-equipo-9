@@ -139,7 +139,7 @@ namespace TPWinForm_equipo_9
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(678, 438);
-            this.textBox2.MaximumSize = new System.Drawing.Size(0, 40);
+            this.textBox2.MaximumSize = new System.Drawing.Size(300, 40);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(231, 40);

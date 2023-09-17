@@ -1,0 +1,15 @@
+C:\Users\mauri\OneDrive\Escritorio\Repositorio-Facultad\TPWinForm_equipo-9\bin\Debug\TPWinForm_equipo-9.exe.config
+C:\Users\mauri\OneDrive\Escritorio\Repositorio-Facultad\TPWinForm_equipo-9\bin\Debug\TPWinForm_equipo-9.exe
+C:\Users\mauri\OneDrive\Escritorio\Repositorio-Facultad\TPWinForm_equipo-9\bin\Debug\TPWinForm_equipo-9.pdb
+C:\Users\mauri\OneDrive\Escritorio\Repositorio-Facultad\TPWinForm_equipo-9\bin\Debug\dominio.dll
+C:\Users\mauri\OneDrive\Escritorio\Repositorio-Facultad\TPWinForm_equipo-9\bin\Debug\negocio.dll
+C:\Users\mauri\OneDrive\Escritorio\Repositorio-Facultad\TPWinForm_equipo-9\bin\Debug\dominio.pdb
+C:\Users\mauri\OneDrive\Escritorio\Repositorio-Facultad\TPWinForm_equipo-9\bin\Debug\negocio.pdb
+C:\Users\mauri\OneDrive\Escritorio\Repositorio-Facultad\TPWinForm_equipo-9\obj\Debug\TPWinForm_equipo-9.csproj.AssemblyReference.cache
+C:\Users\mauri\OneDrive\Escritorio\Repositorio-Facultad\TPWinForm_equipo-9\obj\Debug\TPWinForm_equipo_9.Form1.resources
+C:\Users\mauri\OneDrive\Escritorio\Repositorio-Facultad\TPWinForm_equipo-9\obj\Debug\TPWinForm_equipo_9.Properties.Resources.resources
+C:\Users\mauri\OneDrive\Escritorio\Repositorio-Facultad\TPWinForm_equipo-9\obj\Debug\TPWinForm_equipo-9.csproj.GenerateResource.cache
+C:\Users\mauri\OneDrive\Escritorio\Repositorio-Facultad\TPWinForm_equipo-9\obj\Debug\TPWinForm_equipo-9.csproj.CoreCompileInputs.cache
+C:\Users\mauri\OneDrive\Escritorio\Repositorio-Facultad\TPWinForm_equipo-9\obj\Debug\TPWinForm_equipo-9.csproj.CopyComplete
+C:\Users\mauri\OneDrive\Escritorio\Repositorio-Facultad\TPWinForm_equipo-9\obj\Debug\TPWinForm_equipo-9.exe
+C:\Users\mauri\OneDrive\Escritorio\Repositorio-Facultad\TPWinForm_equipo-9\obj\Debug\TPWinForm_equipo-9.pdb
