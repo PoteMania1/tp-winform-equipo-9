@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using negocio;
 
 namespace TPWinForm_equipo_9
 {
@@ -19,7 +20,8 @@ namespace TPWinForm_equipo_9
 
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
-           
+            NegocioArticulo negocio = new NegocioArticulo();
+            dgvArticulo.DataSource = negocio.Listar();
         }
     }
 }

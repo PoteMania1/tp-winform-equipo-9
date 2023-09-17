@@ -32,7 +32,7 @@ namespace TPWinForm_equipo_9
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvArticulo = new System.Windows.Forms.DataGridView();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.pictureBoxImagenArticulo = new System.Windows.Forms.PictureBox();
@@ -45,7 +45,7 @@ namespace TPWinForm_equipo_9
             this.lblArticulo = new System.Windows.Forms.Label();
             this.lblCategoria = new System.Windows.Forms.Label();
             this.lblMarca = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvArticulo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImagenArticulo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -82,14 +82,14 @@ namespace TPWinForm_equipo_9
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // dgvArticulo
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(196, 94);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(512, 272);
-            this.dataGridView1.TabIndex = 3;
+            this.dgvArticulo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvArticulo.Location = new System.Drawing.Point(196, 94);
+            this.dgvArticulo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.dgvArticulo.Name = "dgvArticulo";
+            this.dgvArticulo.Size = new System.Drawing.Size(512, 272);
+            this.dgvArticulo.TabIndex = 3;
             // 
             // textBox1
             // 
@@ -149,7 +149,7 @@ namespace TPWinForm_equipo_9
             this.lblgion.Location = new System.Drawing.Point(865, 324);
             this.lblgion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblgion.Name = "lblgion";
-            this.lblgion.Size = new System.Drawing.Size(12, 16);
+            this.lblgion.Size = new System.Drawing.Size(13, 16);
             this.lblgion.TabIndex = 9;
             this.lblgion.Text = "-";
             // 
@@ -187,7 +187,7 @@ namespace TPWinForm_equipo_9
             this.lblArticulo.Location = new System.Drawing.Point(34, 177);
             this.lblArticulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblArticulo.Name = "lblArticulo";
-            this.lblArticulo.Size = new System.Drawing.Size(51, 16);
+            this.lblArticulo.Size = new System.Drawing.Size(52, 16);
             this.lblArticulo.TabIndex = 13;
             this.lblArticulo.Text = "Articulo";
             // 
@@ -198,7 +198,7 @@ namespace TPWinForm_equipo_9
             this.lblCategoria.Location = new System.Drawing.Point(35, 285);
             this.lblCategoria.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCategoria.Name = "lblCategoria";
-            this.lblCategoria.Size = new System.Drawing.Size(66, 16);
+            this.lblCategoria.Size = new System.Drawing.Size(67, 16);
             this.lblCategoria.TabIndex = 14;
             this.lblCategoria.Text = "Categoria";
             // 
@@ -209,7 +209,7 @@ namespace TPWinForm_equipo_9
             this.lblMarca.Location = new System.Drawing.Point(34, 235);
             this.lblMarca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMarca.Name = "lblMarca";
-            this.lblMarca.Size = new System.Drawing.Size(45, 16);
+            this.lblMarca.Size = new System.Drawing.Size(46, 16);
             this.lblMarca.TabIndex = 15;
             this.lblMarca.Text = "Marca";
             // 
@@ -232,7 +232,7 @@ namespace TPWinForm_equipo_9
             this.Controls.Add(this.pictureBoxImagenArticulo);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvArticulo);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnAgregar);
@@ -242,7 +242,7 @@ namespace TPWinForm_equipo_9
             this.Name = "frmPrincipal";
             this.Text = "Form Principal";
             this.Load += new System.EventHandler(this.frmPrincipal_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvArticulo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImagenArticulo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -254,7 +254,7 @@ namespace TPWinForm_equipo_9
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Button btnEliminar;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvArticulo;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.PictureBox pictureBoxImagenArticulo;

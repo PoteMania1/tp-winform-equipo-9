@@ -16,3 +16,12 @@ C:\Users\Lauti\Desktop\TP_WinForm\tp-winform-equipo-9\negocio\obj\Debug\negocio.
 C:\Users\Lauti\Desktop\TP_WinForm\tp-winform-equipo-9\negocio\obj\Debug\negocio.csproj.CopyComplete
 C:\Users\Lauti\Desktop\TP_WinForm\tp-winform-equipo-9\negocio\obj\Debug\negocio.dll
 C:\Users\Lauti\Desktop\TP_WinForm\tp-winform-equipo-9\negocio\obj\Debug\negocio.pdb
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\negocio\bin\Debug\negocio.dll
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\negocio\bin\Debug\negocio.pdb
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\negocio\bin\Debug\dominio.dll
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\negocio\bin\Debug\dominio.pdb
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\negocio\obj\Debug\negocio.csproj.CopyComplete
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\negocio\obj\Debug\negocio.dll
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\negocio\obj\Debug\negocio.pdb
