@@ -8,13 +8,13 @@ namespace dominio
 {
     class Articulo
     {
-        public int CodigodeArticulo;
-        public string Nombre;
-        public string Descripcion;
-        public int Precio;
-        //Marca
-        //Categoría
-        //public Imagen;
+        public int Codigo { get; set; }
+        public string Nombre { get; set; }
+        public string Descripcion { get; set; }
+        public Marca Marca { get; set; }
+        public Categoria Categoria { get; set; }
+        public List<byte[]> Imagenes { get; set; }
+        public decimal Precio { get; set; }
 
     }
 }
