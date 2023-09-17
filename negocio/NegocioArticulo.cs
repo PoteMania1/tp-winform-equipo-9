@@ -21,7 +21,7 @@ namespace negocio
             {
                 conexion.ConnectionString = "server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true";
                 comando.CommandType = System.Data.CommandType.Text;
-                comando.CommandText = "Select Id, Codigo, Nombre, Descripcion, Precio From ARTICULOS";
+                comando.CommandText = "SELECT A.Id, Codigo, Nombre, A.Descripcion, Precio, M.Descripcion Marca, C.Descripcion Categoria FROM ARTICULOS A, MARCAS M, CATEGORIAS C where M.Id = A.Id AND C.Id = A.Id";
                 comando.Connection = conexion;
 
                 conexion.Open();
@@ -33,8 +33,10 @@ namespace negocio
                     aux.Codigo = (string)lector["Codigo"];
                     aux.Nombre = (string)lector["Nombre"];
                     aux.Descripcion = (string)lector["Descripcion"];
-                    //aux.Marca = lector["IdMarca"];
-                    //aux.Categoria = ()lector["IdCategoria"];
+                    aux.Marcas = new Marca();
+                    aux.Marcas.descripcion = (string)lector["Marca"];
+                    aux.Categorias = new Categoria();
+                    aux.Categorias.descripcion = (string)lector["Categoria"];
                     aux.Precio = (Decimal)lector["Precio"];
 
                     lista.Add(aux);
