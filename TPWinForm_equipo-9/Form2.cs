@@ -10,16 +10,26 @@ using System.Windows.Forms;
 
 namespace TPWinForm_equipo_9
 {
-    public partial class frmPrincipal : Form
+    public partial class FormAgregar : Form
     {
-        public frmPrincipal()
+        public FormAgregar()
         {
             InitializeComponent();
         }
 
-        private void frmPrincipal_Load(object sender, EventArgs e)
+        private void textBox2_TextChanged(object sender, EventArgs e)
         {
-           
+
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblNombre_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
