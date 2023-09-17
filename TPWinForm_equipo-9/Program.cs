@@ -16,7 +16,7 @@ namespace TPWinForm_equipo_9
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmPrincipal());
+            Application.Run(new form1());
         }
     }
 }

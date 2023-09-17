@@ -1,7 +1,7 @@
 ﻿
 namespace TPWinForm_equipo_9
 {
-    partial class formPrincipal
+    partial class form1
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -187,11 +187,11 @@ namespace TPWinForm_equipo_9
             this.lblMarca.TabIndex = 15;
             this.lblMarca.Text = "Marca";
             // 
-            // Form1
+            // formPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(976, 374);
+            this.ClientSize = new System.Drawing.Size(979, 473);
             this.Controls.Add(this.lblMarca);
             this.Controls.Add(this.lblCategoria);
             this.Controls.Add(this.lblArticulo);
@@ -208,7 +208,7 @@ namespace TPWinForm_equipo_9
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnAgregar);
-            this.Name = "Form1";
+            this.Name = "formPrincipal";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImagenArticulo)).EndInit();

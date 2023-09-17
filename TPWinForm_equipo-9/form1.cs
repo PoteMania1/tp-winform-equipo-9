@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TPWinForm_equipo_9
 {
-    public partial class formPrincipal : Form
+    public partial class form1 : Form
     {
-        public formPrincipal()
+        public form1()
         {
             InitializeComponent();
         }
