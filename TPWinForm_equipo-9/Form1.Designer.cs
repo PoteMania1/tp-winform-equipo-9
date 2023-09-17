@@ -35,12 +35,18 @@ namespace TPWinForm_equipo_9
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnBuscar = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxImagenArticulo = new System.Windows.Forms.PictureBox();
             this.btnSiguiente = new System.Windows.Forms.Button();
             this.btnAnterior = new System.Windows.Forms.Button();
             this.lblgion = new System.Windows.Forms.Label();
+            this.cmbCategoria = new System.Windows.Forms.ComboBox();
+            this.cmbMarca = new System.Windows.Forms.ComboBox();
+            this.cmbArticulo = new System.Windows.Forms.ComboBox();
+            this.lblArticulo = new System.Windows.Forms.Label();
+            this.lblCategoria = new System.Windows.Forms.Label();
+            this.lblMarca = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImagenArticulo)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAgregar
@@ -73,7 +79,7 @@ namespace TPWinForm_equipo_9
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(135, 56);
+            this.dataGridView1.Location = new System.Drawing.Point(168, 70);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(560, 272);
             this.dataGridView1.TabIndex = 3;
@@ -95,13 +101,13 @@ namespace TPWinForm_equipo_9
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
+            // pictureBoxImagenArticulo
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(756, 85);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(208, 183);
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxImagenArticulo.Location = new System.Drawing.Point(756, 85);
+            this.pictureBoxImagenArticulo.Name = "pictureBoxImagenArticulo";
+            this.pictureBoxImagenArticulo.Size = new System.Drawing.Size(208, 183);
+            this.pictureBoxImagenArticulo.TabIndex = 6;
+            this.pictureBoxImagenArticulo.TabStop = false;
             // 
             // btnSiguiente
             // 
@@ -130,15 +136,72 @@ namespace TPWinForm_equipo_9
             this.lblgion.TabIndex = 9;
             this.lblgion.Text = "-";
             // 
+            // cmbCategoria
+            // 
+            this.cmbCategoria.FormattingEnabled = true;
+            this.cmbCategoria.Location = new System.Drawing.Point(461, 23);
+            this.cmbCategoria.Name = "cmbCategoria";
+            this.cmbCategoria.Size = new System.Drawing.Size(110, 21);
+            this.cmbCategoria.TabIndex = 10;
+            // 
+            // cmbMarca
+            // 
+            this.cmbMarca.FormattingEnabled = true;
+            this.cmbMarca.Location = new System.Drawing.Point(315, 23);
+            this.cmbMarca.Name = "cmbMarca";
+            this.cmbMarca.Size = new System.Drawing.Size(110, 21);
+            this.cmbMarca.TabIndex = 11;
+            // 
+            // cmbArticulo
+            // 
+            this.cmbArticulo.FormattingEnabled = true;
+            this.cmbArticulo.Location = new System.Drawing.Point(168, 23);
+            this.cmbArticulo.Name = "cmbArticulo";
+            this.cmbArticulo.Size = new System.Drawing.Size(110, 21);
+            this.cmbArticulo.TabIndex = 12;
+            // 
+            // lblArticulo
+            // 
+            this.lblArticulo.AutoSize = true;
+            this.lblArticulo.Location = new System.Drawing.Point(165, 7);
+            this.lblArticulo.Name = "lblArticulo";
+            this.lblArticulo.Size = new System.Drawing.Size(42, 13);
+            this.lblArticulo.TabIndex = 13;
+            this.lblArticulo.Text = "Articulo";
+            // 
+            // lblCategoria
+            // 
+            this.lblCategoria.AutoSize = true;
+            this.lblCategoria.Location = new System.Drawing.Point(458, 7);
+            this.lblCategoria.Name = "lblCategoria";
+            this.lblCategoria.Size = new System.Drawing.Size(52, 13);
+            this.lblCategoria.TabIndex = 14;
+            this.lblCategoria.Text = "Categoria";
+            // 
+            // lblMarca
+            // 
+            this.lblMarca.AutoSize = true;
+            this.lblMarca.Location = new System.Drawing.Point(312, 7);
+            this.lblMarca.Name = "lblMarca";
+            this.lblMarca.Size = new System.Drawing.Size(37, 13);
+            this.lblMarca.TabIndex = 15;
+            this.lblMarca.Text = "Marca";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(976, 374);
+            this.Controls.Add(this.lblMarca);
+            this.Controls.Add(this.lblCategoria);
+            this.Controls.Add(this.lblArticulo);
+            this.Controls.Add(this.cmbArticulo);
+            this.Controls.Add(this.cmbMarca);
+            this.Controls.Add(this.cmbCategoria);
             this.Controls.Add(this.lblgion);
             this.Controls.Add(this.btnAnterior);
             this.Controls.Add(this.btnSiguiente);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBoxImagenArticulo);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);
@@ -148,7 +211,7 @@ namespace TPWinForm_equipo_9
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImagenArticulo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -162,10 +225,16 @@ namespace TPWinForm_equipo_9
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btnBuscar;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBoxImagenArticulo;
         private System.Windows.Forms.Button btnSiguiente;
         private System.Windows.Forms.Button btnAnterior;
         private System.Windows.Forms.Label lblgion;
+        private System.Windows.Forms.ComboBox cmbCategoria;
+        private System.Windows.Forms.ComboBox cmbMarca;
+        private System.Windows.Forms.ComboBox cmbArticulo;
+        private System.Windows.Forms.Label lblArticulo;
+        private System.Windows.Forms.Label lblCategoria;
+        private System.Windows.Forms.Label lblMarca;
     }
 }
 
