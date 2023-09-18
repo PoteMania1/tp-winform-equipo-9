@@ -40,6 +40,18 @@ namespace TPWinForm_equipo_9
             pictureBoxImagenArticulo.Load("https://xmeme-fe.netlify.app/src/placeholder-xmeme.jpg");
         }
 
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            FormAgregar frm = new FormAgregar();
+            frm.ShowDialog();
+        }
+    }
+}
+            /*NegocionImagen imagenes = new NegocionImagen();
+            listaImagen = imagenes.ListarImagenes();
+            dgvArticulo.DataSource = listaImagen;
+            cargarImagen(listaImagen[0].ImagenUrl);*/
+
 
         /*private void dgvPokemons_SelectionChanged(object sender, EventArgs e)
         {
@@ -58,8 +70,3 @@ namespace TPWinForm_equipo_9
             pictureBoxImagenArticulo.Load("https://efectocolibri.com/wp-content/uploads/2021/01/placeholder.png");
         }
         }*/
-    }
-
-
-}
-

@@ -15,9 +15,6 @@ namespace dominio
         public string Descripcion { get; set; }
         public int IdMarcas { get; set; }
         public int IdCategorias { get; set; }
-
-        //public Imagen imagen { get; set; } 
-        //public List<byte[]> Imagenes { get; set; }
         public decimal Precio { get; set; }
 
     }

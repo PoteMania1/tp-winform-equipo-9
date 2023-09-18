@@ -61,3 +61,9 @@ C:\Users\Lauti\Desktop\ProgIII\TP_WinForm\tp-winform-equipo-9\TPWinForm_equipo-9
 C:\Users\Lauti\Desktop\ProgIII\TP_WinForm\tp-winform-equipo-9\TPWinForm_equipo-9\obj\Debug\TPWinForm_equipo-9.csproj.CopyComplete
 C:\Users\Lauti\Desktop\ProgIII\TP_WinForm\tp-winform-equipo-9\TPWinForm_equipo-9\obj\Debug\TPWinForm_equipo-9.exe
 C:\Users\Lauti\Desktop\ProgIII\TP_WinForm\tp-winform-equipo-9\TPWinForm_equipo-9\obj\Debug\TPWinForm_equipo-9.pdb
+C:\Users\Lauti\Desktop\ProgIII\TP_WinForm\tp-winform-equipo-9\TPWinForm_equipo-9\bin\Debug\aa\TPWinForm_equipo-9.resources.dll
+C:\Users\Lauti\Desktop\ProgIII\TP_WinForm\tp-winform-equipo-9\TPWinForm_equipo-9\obj\Debug\TPWinForm_equipo_9.frmPrincipal.aa.resources
+C:\Users\Lauti\Desktop\ProgIII\TP_WinForm\tp-winform-equipo-9\TPWinForm_equipo-9\obj\Debug\aa\TPWinForm_equipo-9.resources.dll
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\TPWinForm_equipo-9\obj\Debug\TPWinForm_equipo_9.frmPrincipal.aa.resources
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\TPWinForm_equipo-9\bin\Debug\aa\TPWinForm_equipo-9.resources.dll
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\TPWinForm_equipo-9\obj\Debug\aa\TPWinForm_equipo-9.resources.dll
