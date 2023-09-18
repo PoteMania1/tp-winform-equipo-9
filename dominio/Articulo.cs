@@ -15,6 +15,10 @@ namespace dominio
         public string Descripcion { get; set; }
         public Marca Marcas { get; set; }
         public Categoria Categorias { get; set; }
+<<<<<<< HEAD
+=======
+        //public List<byte[]> Imagenes { get; set; }
+>>>>>>> ef319bdb3aac644e3846d514eb4ce0eb3257f01c
         public decimal Precio { get; set; }
 
     }
