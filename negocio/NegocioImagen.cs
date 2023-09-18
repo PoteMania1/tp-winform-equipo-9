@@ -9,7 +9,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace negocio
 {
-    public class NegocionImagen
+    public class NegocioImagen
     {
    
     } 

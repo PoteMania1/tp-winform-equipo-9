@@ -25,10 +25,12 @@ namespace TPWinForm_equipo_9
 
             NegocioArticulo negocio = new NegocioArticulo();
             dgvArticulo.DataSource = negocio.Listar();
-
-
         }
-       
 
-}
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            FormAgregar frm = new FormAgregar();
+            frm.ShowDialog();
+        }
+    }
 }
