@@ -110,19 +110,21 @@ namespace TPWinForm_equipo_9
                     {
                         if (actualId.Id == seleccionado.Id)
                         {
-                            listadoImagenx.Add(item);
-                            maxImg++;
+                            pictureBoxImagenArticulo.Load(listadoImagen[seleccionado.Id].ImagenUrl);
+
+                            /*listadoImagenx.Add(item);
+                            maxImg++;*/
                         }
                     }
-                    if (maxImg != 0)
+                    /*if (maxImg != 0)
                     {
-                        pictureBoxImagenArticulo.Load(listadoImagenx[seleccionado.Id].ImagenUrl);
+                        pictureBoxImagenArticulo.Load(listadoImagen[seleccionado.Id].ImagenUrl);
                         //contClick++;
                     }
                     else
                     {
                         pictureBoxImagenArticulo.Load("https://cloudfront-us-east-1.images.arcpublishing.com/infobae/BLZJHTB27ZHUPKK3A7GXTMIEQA.jpg");
-                    }
+                    }*/
 
                 }
                 catch (Exception)
