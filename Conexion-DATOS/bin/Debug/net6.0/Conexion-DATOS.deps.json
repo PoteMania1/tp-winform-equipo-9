@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Conexion-DATOS/1.0.0": {
+        "runtime": {
+          "Conexion-DATOS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Conexion-DATOS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

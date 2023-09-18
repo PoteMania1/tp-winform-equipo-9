@@ -1,0 +1,11 @@
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\Conexion-DATOS\bin\Debug\net6.0\Conexion-DATOS.deps.json
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\Conexion-DATOS\bin\Debug\net6.0\Conexion-DATOS.dll
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\Conexion-DATOS\bin\Debug\net6.0\Conexion-DATOS.pdb
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\Conexion-DATOS\obj\Debug\net6.0\Conexion-DATOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\Conexion-DATOS\obj\Debug\net6.0\Conexion-DATOS.AssemblyInfoInputs.cache
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\Conexion-DATOS\obj\Debug\net6.0\Conexion-DATOS.AssemblyInfo.cs
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\Conexion-DATOS\obj\Debug\net6.0\Conexion-DATOS.csproj.CoreCompileInputs.cache
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\Conexion-DATOS\obj\Debug\net6.0\Conexion-DATOS.dll
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\Conexion-DATOS\obj\Debug\net6.0\refint\Conexion-DATOS.dll
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\Conexion-DATOS\obj\Debug\net6.0\Conexion-DATOS.pdb
+C:\Users\mauri\OneDrive\Escritorio\Facultadd\tp-winform-equipo-9\Conexion-DATOS\obj\Debug\net6.0\ref\Conexion-DATOS.dll

@@ -13,8 +13,10 @@ namespace dominio
         public string Codigo { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
-        public Marca Marcas { get; set; }
-        public Categoria Categorias { get; set; }
+        public int IdMarcas { get; set; }
+        public int IdCategorias { get; set; }
+
+        //public Imagen imagen { get; set; } 
         //public List<byte[]> Imagenes { get; set; }
         public decimal Precio { get; set; }
 

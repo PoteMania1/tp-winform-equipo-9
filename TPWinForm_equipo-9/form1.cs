@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -24,12 +25,19 @@ namespace TPWinForm_equipo_9
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
 
+            /*NegocioArticulo negocio = new NegocioArticulo();
+            dgvArticulo.DataSource = negocio.Listar();*/
+            Cargar();
+        }
+
+        private void Cargar()
+        {
             NegocioArticulo negocio = new NegocioArticulo();
             dgvArticulo.DataSource = negocio.Listar();
-            /*NegocionImagen imagenes = new NegocionImagen();
-            listaImagen = imagenes.ListarImagenes();
-            dgvArticulo.DataSource = listaImagen;
-            cargarImagen(listaImagen[0].ImagenUrl);*/
+
+            pictureBoxImagenArticulo.BorderStyle = BorderStyle.Fixed3D;
+            pictureBoxImagenArticulo.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBoxImagenArticulo.Load("https://xmeme-fe.netlify.app/src/placeholder-xmeme.jpg");
         }
 
 

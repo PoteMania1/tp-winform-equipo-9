@@ -15,33 +15,32 @@ namespace negocio
         public List<Imagen> ListarImagenes()
         {
             List<Imagen> ListaImagen = new List<Imagen>();
-            SqlConnection conexion = new SqlConnection();
-            SqlCommand comando = new SqlCommand();
-            SqlDataReader lector;
+            AccesoDatos datos = new AccesoDatos();
+
 
             try
             {
-                conexion.ConnectionString = "server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true";
-                comando.CommandType = System.Data.CommandType.Text;
-                comando.CommandText = "select ImagenUrl From IMAGENES";
-                comando.Connection = conexion;
+                datos.SetearConsulta("SELECT ImagenUrl, I.Id, A.Id From IMAGENES I, ARTICULOS A where I.Id = A.Id");
+                datos.EjecutarLectura();
 
-                conexion.Open();
-                lector = comando.ExecuteReader();
-                while (lector.Read())
+                while (datos.Lector.Read())
                 {
                     Imagen aux = new Imagen();
-                    aux.ImagenUrl = (string)lector["ImagenUrl"];
+                    aux.ImagenUrl = (string)datos.Lector["ImagenUrl"];
+                    aux.Id = (int)datos.Lector["Id"];
                     ListaImagen.Add(aux);
                 }
 
-                conexion.Close();
                 return ListaImagen;
             }
             catch (Exception ex)
             {
 
                 throw ex;
+            }
+            finally 
+            { 
+                datos.CerrarConexion(); 
             }
         }
     }
