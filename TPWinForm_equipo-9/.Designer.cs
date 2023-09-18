@@ -68,6 +68,7 @@ namespace TPWinForm_equipo_9
             this.dgvArticulo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             resources.ApplyResources(this.dgvArticulo, "dgvArticulo");
             this.dgvArticulo.Name = "dgvArticulo";
+            this.dgvArticulo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgvArticulo_MouseClick);
             // 
             // textBox1
             // 

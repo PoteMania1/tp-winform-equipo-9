@@ -16,7 +16,12 @@ namespace TPWinForm_equipo_9
 {
     public partial class frmPrincipal : Form
     {
-        private List<Imagen> listaImagen = new List<Imagen>();
+        //private List<Articulo> listaArticulo;
+        private int contClick = 0;
+        private int maxImg = 0;
+        private int pivot = 0;
+        private int _pictureIndex = 0;
+
         public frmPrincipal()
         {
             InitializeComponent();
@@ -34,16 +39,105 @@ namespace TPWinForm_equipo_9
         {
             NegocioArticulo negocio = new NegocioArticulo();
             dgvArticulo.DataSource = negocio.Listar();
+            imagenLoad();
 
-            pictureBoxImagenArticulo.BorderStyle = BorderStyle.Fixed3D;
+            /*pictureBoxImagenArticulo.BorderStyle = BorderStyle.Fixed3D;
             pictureBoxImagenArticulo.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBoxImagenArticulo.Load("https://xmeme-fe.netlify.app/src/placeholder-xmeme.jpg");
+            pictureBoxImagenArticulo.Load("https://pbs.twimg.com/profile_images/1612285524735148033/1zMtxkWb_400x400.jpg");*/
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             FormAgregar frm = new FormAgregar();
             frm.ShowDialog();
+        }
+        private void imagenLoad()
+        {
+
+            NegocioMarca negocioMarca = new NegocioMarca();
+            NegocioCategoria negocioCategoria = new NegocioCategoria();
+            NegocioArticulo negocioArticulo = new NegocioArticulo();
+            List<Marca> listaMarca = new List<Marca>();
+            List<Categoria> listaCategoria = new List<Categoria>();
+            List<Articulo> listaArticulo = new List<Articulo>();
+            listaMarca = negocioMarca.ListarMarcas();
+            listaCategoria = negocioCategoria.ListarCategorias();
+            listaArticulo = negocioArticulo.Listar();
+
+            NegocioImagen negocioImagen = new NegocioImagen();
+            List<Imagen> listadoImagen = new List<Imagen>();
+            listadoImagen = negocioImagen.ListarImagenes();
+            Articulo seleccionado;
+            seleccionado = (Articulo)dgvArticulo.CurrentRow.DataBoundItem;
+            Articulo actualId = (Articulo)dgvArticulo.CurrentRow.DataBoundItem;
+
+            if (pivot == seleccionado.Id)
+            {
+
+            }
+            else
+            {
+                foreach (Articulo articulo in listaArticulo)
+                {
+                    if (articulo.Id == seleccionado.Id)
+                    {
+                        cmbArticulo.Text = articulo.Descripcion;
+                        foreach (Marca item in listaMarca)
+                        {
+                            if (item.Id == articulo.IdMarcas)
+                            {
+                                cmbMarca.Text = item.Descripcion;
+                            }
+                        }
+                        foreach (Categoria item in listaCategoria)
+                        {
+                            if (item.Id == articulo.IdCategorias)
+                            {
+                                cmbCategoria.Text = item.Descripcion;
+                            }
+                        }
+                    }
+                }
+                maxImg = 0;
+                contClick = 0;
+                pivot = seleccionado.Id;
+                List<Imagen> listadoImagenx = new List<Imagen>();
+                
+
+                try
+                {
+                    foreach (Imagen item in listadoImagen)
+                    {
+                        if (actualId.Id == seleccionado.Id)
+                        {
+                            listadoImagenx.Add(item);
+                            maxImg++;
+                        }
+                    }
+                    if (maxImg != 0)
+                    {
+                        pictureBoxImagenArticulo.Load(listadoImagenx[seleccionado.Id].ImagenUrl);
+                        //contClick++;
+                    }
+                    else
+                    {
+                        pictureBoxImagenArticulo.Load("https://cloudfront-us-east-1.images.arcpublishing.com/infobae/BLZJHTB27ZHUPKK3A7GXTMIEQA.jpg");
+                    }
+
+                }
+                catch (Exception)
+                {
+
+                    MessageBox.Show("Problemas al cargar imagen, intente nuevamente");
+                    pictureBoxImagenArticulo.Load("https://cloudfront-us-east-1.images.arcpublishing.com/infobae/BLZJHTB27ZHUPKK3A7GXTMIEQA.jpg");
+                }
+            }
+
+        }
+
+        private void dgvArticulo_MouseClick(object sender, MouseEventArgs e)
+        {
+            imagenLoad();
         }
     }
 }
